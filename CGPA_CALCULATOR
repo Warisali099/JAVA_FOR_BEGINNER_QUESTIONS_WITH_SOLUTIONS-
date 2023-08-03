@@ -9,7 +9,7 @@ public class CGPA_CALCULATOR {
         float b = sc.nextFloat();
         System.out.println("Enter the Marks of Subject 3: ");
         float c = sc.nextFloat();
-        float sum = ((a+b+c)*10)/300;
+        float sum = ((a+b+c)*100)/300;
         System.out.println("Your CGPA is " + sum +"cgpa");
     }
 }
